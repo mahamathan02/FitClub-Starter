@@ -1,0 +1,62 @@
+.join{
+    display: flex;
+    padding: 0.2rem;
+    gap: 10rem;
+}
+
+.left-j{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+
+.left-j hr{
+    position: absolute;
+    width: 10.5rem;
+    border: 2px solid orange;
+    border-radius: 20%;
+    margin: -10px 0;   
+    width: 80%;
+}
+
+.left-j div span{
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    width: 160%;
+}
+
+.right-j{
+    display: flex;
+    align-items: flex-end; 
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.email-container{
+    display: flex;
+    gap: 3rem;
+    background-color: rgb(142, 138, 138);
+    padding: 1rem;
+    border-radius: 10px;
+} 
+
+.email-container input{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(179, 179, 179);
+}
+
+button{
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: orange;
+    color: aliceblue;
+}
